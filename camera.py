@@ -58,7 +58,7 @@ def main():
     while True:
         ret, frame = cap.read()
         if not ret:
-            print("Failed to grab frame.")
+            print("Failed to grab frame")
             break
 
         # Process the frame to detect objects
